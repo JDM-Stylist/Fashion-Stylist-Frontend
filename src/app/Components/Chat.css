@@ -1,0 +1,103 @@
+.chat-container {
+    width: 400px;
+    background-color: #595959;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    margin-top: 75px;
+    margin-left: 550px;
+    height: 500px;
+    border-radius: 25px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    color:#000;
+    padding: 20px;
+}
+
+.chat-title {
+    color: #384c60;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.chat-subtitle {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.chat-history {
+    flex: 1;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.user-message {
+    background-color: transparent;
+    color: #000;
+    border-radius: 10px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+    max-width: 70%;
+    text-align: center;
+    font-size: 25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 45px;
+}
+
+.bot-message {
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    padding-left: 8px;
+    margin-bottom: 5px;
+    max-width: 70%;
+    font-size: 25px;
+    margin-left: 45px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.input-form {
+    width: 100%;
+    padding: 20px;
+    color:#000;
+    background-color: #fff;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+}
+
+.input-textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+    outline: none;
+}
+
+.send-btn {
+    background-color: #00162d;
+    color: white;
+    border: #000810;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    outline: none;
+}
+
+.send-btn:hover {
+    background-color: #d7eaff;
+    color:#000810
+}
