@@ -1,4 +1,10 @@
-import { OpenAI } from 'openai';
-const apiKey = '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';
-const openai = new OpenAI({apiKey, dangerouslyAllowBrowser: true});
+import OpenAI from 'openai';
+import dotenv from 'dotenv';
+
+dotenv.config(); // Load environment variables
+
+const openai = new OpenAI({
+    apiKey: process.env.OPEN_AI_API_KEY, // Access environment variable correctly
+});
+
 export default openai;
